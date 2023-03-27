@@ -1,0 +1,150 @@
+.popup {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    background-color: bisque;
+    width: 400px;
+    height: 400px;
+
+}
+.addEmployee {
+    background-color: #073c4a;
+    color: rgb(255, 255, 255);
+    width: 165px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-weight: bold;
+    position: absolute;
+    right: 0px;
+
+}
+.submitbutton{
+     border-radius: 8px;
+     box-sizing: border-box;
+     font-weight: bold;
+     margin-right: 65%;
+     margin-left: 30px;
+     margin-bottom: 10px;
+     padding-top: 5px;
+     padding-left: 35px;
+     padding-right: 2px;
+     height: 30px;
+     width: 110px;
+
+}
+.closeButton{
+     border-radius: 4px ;
+     box-sizing: border-box;
+     padding-left: 18px;
+     margin-right: 8%;
+     margin-left: 80%;
+     
+    
+}
+.addEmployee:hover {
+    background-color: rgb(49, 168, 201);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.submitbutton:hover{
+    background-color: #557267;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
+.closeButton:hover{
+    background-color: #9f4444;
+    cursor: pointer;
+}
+.popWindow {
+    width: 30%;
+    border-radius: 3%;
+    position: absolute;
+    background-color:none;
+    margin: 2%;
+}
+
+.popWindow:hover {
+    transition: 5s ease;
+    background-color:#ada2a2;
+}
+ input{
+      border-radius: 8px;
+      margin-left: 5%;
+      margin-bottom: 5%;
+      width: 80%;
+      border: none;
+      outline: none;
+      background-color: #e6e8dc;
+      padding:10px;
+      text-align:calc(10px);
+      padding-left: 6%;
+
+  }
+
+.popup {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    background-color: #fffefc;
+}
+.popWindow {
+    top: 20%;
+    left: 42%;
+    position: absolute;
+}
+
+.popWindow:hover {
+    transition: 0.5s ease;
+}
+.mainframe {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 4rem auto;
+}
+
+.frame2 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 12rem auto;
+
+}
+
+.frame3 {
+    display: grid;
+    grid-template-rows: 4rem auto;
+
+}
+.frame4 {
+    display: grid;
+    grid-template-rows: 4rem auto;
+
+}
+.frame4{
+    height: 80%;
+    width: 96%;
+    margin-top: 8%;
+    margin-left: 3%;
+    background-color: #e6e6e6;
+    border-radius: 12px;
+}
+.E_Details{
+    padding-bottom: 80%;
+    margin-bottom: 15%;
+    padding-top: 0%;
+    margin-top:0%;
+}
+.myRadio{
+
+    padding-right: 45%;
+    margin-left: 60%;
+    margin-right: 80%;
+    position: absolute;
+    align-items: baseline;
+}

@@ -1,0 +1,112 @@
+.heading {
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+.btnSection {
+
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    padding: 5px;
+
+}
+
+.Chart1 {
+    padding-top: 2rem;
+    float: left;
+
+
+}
+
+.chartSection {
+    color: aliceblue;
+    width: 100px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.1);
+    margin-left: 02px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.active {
+    background: rgb(158, 43, 43);
+
+}
+
+.miniHeding {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+
+.buttonGroup {
+    justify-content: end;
+    display: flex;
+}
+
+.pieChart {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-weight: 500;
+
+}
+
+.pieChartSection {
+
+    display: flex;
+    float:right;
+    
+}
+
+.column1 {
+    float: left;
+}
+
+.content {
+    padding: 0rem;
+    padding-right: 20px;
+    padding-top: 0;
+    
+    
+}
+
+.type {
+    background-color: rgb(255, 255, 255, 0.5);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+    width: 50px;
+    height: 30px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.setChart {
+    padding-top: 20px;
+    float: right;
+}
